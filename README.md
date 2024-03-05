@@ -75,6 +75,8 @@ The image of the block. It's an image uploader. Just click on the input and sele
  
 ![](https://i.ibb.co/RbdsJZc/flip.png)
 
+![The image flipped.](https://i.ibb.co/y5LrBTY/fillep.png "The image flipped.")
+
  - On the sidebar you can change the aspect ratio. There are:
      -- Landscape (16:9)
      -- Portrait (9:16) "Vertical"
@@ -82,5 +84,11 @@ The image of the block. It's an image uploader. Just click on the input and sele
      -- Circle
      -- Original
  ![](https://i.ibb.co/12q5FrH/aspect.png)
+ 
+ ### Frontend
+ 
+ That's how tit will be displayed on the post.
+ 
+ ![](https://i.ibb.co/WBKKRyg/front.png)
 
 
