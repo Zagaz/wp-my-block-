@@ -1,0 +1,147 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ $danger: #dc3545;
+ $danger-light: #f8d7da;
+ $danger-dark: #bd2130;
+ $danger-text: #721c24;
+ 
+ $warning: #ffc107;
+ $warning-light: #fff3cd;
+ $warning-dark: #d39e00;
+ $warning-text: #856404;
+ 
+ $success: #28a745;
+ $success-light: #d4edda;
+ $success-dark: #218838;
+ $success-text: #155724;
+ 
+ $info: #17a2b8;
+ $info-light: #d1ecf1;
+ $info-dark: #138496;
+ $info-text: #0c5460;
+ 
+ $white: #ffffff;
+ 
+ @mixin zagaz-inputs {
+	 background-color: $white;
+	 border: 1px solid $info;
+	 border-radius: 5px;
+	 padding: 20px;
+	 margin-bottom: 20px;
+ }
+ 
+ @mixin apect-ratio($aspect) {
+	 aspect-ratio: $aspect;
+ }
+ 
+ .wp-block-zaz-static-zagaz-static {
+	 .zagaz-backend {
+		 padding: 20px;
+		 background-color: $info-light;
+ 
+		 .zagaz-title {
+			 .zagaz-title-input {
+				 @include zagaz-inputs;
+				 border-radius: 5px;
+				 border: 1px solid $info;
+ 
+ 
+			 }
+		 }
+ 
+		 .zagaz-date {
+			 @include zagaz-inputs;
+ 
+			 display: flex;
+			 flex-direction: column;
+ 
+			 .date-left {
+				 padding: 20px;
+				 @include zagaz-inputs;
+				 width: 100%;
+			 }
+ 
+			 .date-right {
+				align-self: self-end;
+				 margin-left: 20px;
+				 padding: 20px;
+				 @include zagaz-inputs;
+				 width: 100%;
+			 }
+		 }
+ 
+		 .zagaz-richtext {
+			 @include zagaz-inputs;
+		 }
+	 }
+ 
+	 .image-wrapper {
+		 .image-top {
+			 @include zagaz-inputs;
+ 
+			 .upload-button {
+				 margin-right: 20px;
+			 }
+		 }
+ 
+		 .image-down {
+			 height: 200px;
+			 @include zagaz-inputs;
+ 
+			 .image-display {
+				 height: inherit;
+				 width: auto;
+				 display: flex;
+				 justify-content: center;
+ 
+				 &.flip-horizontal {
+					 transform: scaleX(-1);
+					 transition: transform 0.5s;
+				 }
+ 
+				 &.flip-original {
+					 transform: scaleX(1);
+					 transition: transform 0.5s;
+				 }
+ 
+				 .image {
+					 height: 190px;
+					 width: auto;
+					 align-self: center;
+					 justify-self: center;
+					 object-fit: cover;
+ 
+					 &.landscape {
+						 @include apect-ratio(16/9);
+					 }
+ 
+					 &.square {
+						 @include apect-ratio(1/1);
+					 }
+ 
+					 &.circle {
+						 aspect-ratio: 1/1;
+						 border-radius: 50%;
+					 }
+ 
+					 &.portrait {
+						 @include apect-ratio(9/16);
+					 }
+ 
+					 &.letterbox {
+						 aspect-ratio: 4/3;
+					 }
+ 
+					 &.original {
+						 aspect-ratio: auto;
+					 }
+ 
+				 }
+			 }
+		 }
+	 }
+ }

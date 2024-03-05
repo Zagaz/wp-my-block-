@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "zaz-static/zagaz-static",
+  "version": "0.1.0",
+  "title": "Zagaz",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "zagaz-static",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Your title here..."
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "content": {
+      "type": "string",
+      "src": "html",
+      "default": "Hello Block Editor!"
+    },
+    "alignmnet": {
+      "type": "string",
+      "default": "left"
+    },
+    "contentColor": {
+      "type": "string",
+      "default": "black"
+    },
+    "contentSize": {
+      "type": "string",
+      "default": "16px"
+    },
+    "date": {
+      "type": "string",
+      "default": ""
+    },
+    "day": {
+      "type": "string",
+      "default": ""
+    },
+    "month": {
+      "type": "string",
+      "default": ""
+    },
+    "year": {
+      "type": "string",
+      "default": ""
+    },
+    "image": {
+      "type": "string",
+      "default": ""
+    },
+    "aspectRatio": {
+      "type": "string",
+      "default": "landscape"
+    },
+    "flipHorizontal": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
