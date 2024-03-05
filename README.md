@@ -19,7 +19,7 @@ It has 4 fields:
 
 1. Go to the post/page editor
 2. Add a new block
-3. Look for the "My Block" block
+3. Look for the "Zagaz" block
 4. Fill in the fields
 5. Save the post/page
    
