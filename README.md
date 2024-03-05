@@ -22,6 +22,7 @@ It has 4 fields:
 3. Look for the "My Block" block
 4. Fill in the fields
 5. Save the post/page
+   
 ![](https://i.ibb.co/XDLmrm7/image1.png)
 
 ## The Components
@@ -29,11 +30,13 @@ It has 4 fields:
 ### Title
 
 The title of the block. It's a text field. Just type in the title.
+
 ![](https://i.ibb.co/D1TZ8N3/titleinput.png)
 
 ### Title settings
 
 Click on the title to open the settings on the sidebar. You can change the color of the title.
+
 ![](https://i.ibb.co/VLzgRJg/titlecolor.png)
 
 ### Content
@@ -47,6 +50,7 @@ The content of the block. It's a text field. Just type in the content. If you cl
 To change the font color, go to the sidebar and click on the "Color Settings" tab. You can change the color of the text, the background, and the border.
 
 To change the font size, go to the sidebar and click on the "Size" tab. You can change the font size in different ways. By defalt there's a slider to change the size. You can choose between Smal, Medium and Large. 
+
 ![](https://i.ibb.co/vmcySD3/image1-4.png)
 
 
@@ -63,11 +67,14 @@ The date of the block. It's a date picker. Just click on the input and select th
 
 The image of the block. It's an image uploader. Just click on the input and select the image. 
  - To add the image just click on "Upload Image" button and select a new image.
+   
 ![](https://i.ibb.co/MPqm4X0/upload.png)
+
  - To remove the image just click on "Remove Image" button.
  - To flip the image horizontally, toggle the "Flip Image" switch on the sidebar. 
  
 ![](https://i.ibb.co/RbdsJZc/flip.png)
+
  - On the sidebar you can change the aspect ratio. There are:
      -- Landscape (16:9)
      -- Portrait (9:16) "Vertical"
