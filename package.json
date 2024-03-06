@@ -15,6 +15,10 @@
 		"start": "wp-scripts start"
 	},
 	"devDependencies": {
+		"@wordpress/env": "^9.4.0",
 		"@wordpress/scripts": "^27.3.0"
+	},
+	"dependencies": {
+		"@wp-now/wp-now": "^0.1.64"
 	}
 }

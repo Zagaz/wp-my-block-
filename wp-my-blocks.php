@@ -5,10 +5,12 @@
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0
- * Author:            The WordPress Contributors
+ * Author:            André Ranulfo
+ * Author URI:        https://www.linkedin.com/in/andre-ranulfo
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wp-my-blocks
+ * 
  *
  * @package           create-block
  */

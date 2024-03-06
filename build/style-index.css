@@ -1,1 +1,65 @@
-.wp-block-zaz-static-zagaz-static .zagaz-frontend{width:100%}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper{display:flex;flex-direction:row;width:100%}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper{align-self:center;border-right:1px solid #000;display:flex;justify-content:center;width:50%}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image{align-self:center;height:auto;height:190px;justify-self:center;-o-object-fit:cover;object-fit:cover;width:100%;width:auto}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.landscape{aspect-ratio:1.7777777778}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.square{aspect-ratio:1}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.circle{aspect-ratio:1/1;border-radius:50%}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.portrait{aspect-ratio:.5625}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.letterbox{aspect-ratio:4/3}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.original{aspect-ratio:auto}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .date-wrapper{width:inherit}.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .text-wrapper{align-content:space-around;align-items:flex-start;justify-content:center;padding:20px;width:50%}
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-zaz-static-zagaz-static .zagaz-frontend {
+  width: 100%;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper {
+  border-right: 1px solid #000;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image {
+  width: 100%;
+  height: auto;
+  height: 190px;
+  width: auto;
+  align-self: center;
+  justify-self: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.landscape {
+  aspect-ratio: 1.7777777778;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.square {
+  aspect-ratio: 1;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.circle {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.portrait {
+  aspect-ratio: 0.5625;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.letterbox {
+  aspect-ratio: 4/3;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .image-wrapper .the-image.original {
+  aspect-ratio: auto;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .date-wrapper {
+  width: inherit;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-frontend .wrapper .text-wrapper {
+  width: 50%;
+  padding: 20px;
+  justify-content: center;
+  align-content: space-around;
+  align-items: flex-start;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
