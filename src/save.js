@@ -23,7 +23,7 @@ export default function save({ attributes }) {
               <img
                 src={image}
                 alt={title}
-                className={`the-image ${aspectRatio}`}
+                className={`the-image ${aspectRatio} ${flipHorizontal}`}
               />
             </div>
 

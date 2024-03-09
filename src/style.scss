@@ -63,6 +63,10 @@
 					 align-self: center;
 					 justify-self: center;
 					 object-fit: cover;
+
+					 &.flip-horizontal {
+						 transform: scaleX(-1);
+					 }
  
 					 &.landscape {
 						 @include apect-ratio(16/9);

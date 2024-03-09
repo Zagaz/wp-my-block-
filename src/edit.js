@@ -36,25 +36,27 @@ export default function Edit({ attributes, setAttributes }) {
     aspectRatio,
     flipHorizontal,
   } = attributes;
-
+// TITLE
   const onChangeTitle = (newTitle) => {
     setAttributes({ title: newTitle });
   };
-  // title Color
-
+// TITLE COLOR
   function onChangeTitleColor(newTitleColor) {
     setAttributes({ titleColor: newTitleColor });
   }
-
+// CONTENT
   function onChangeContent(newContent) {
     setAttributes({ content: newContent });
   }
+  // CONTENT ALIGNMENT
   function onChangeAlignment(newAlignment) {
     setAttributes({ alignment: newAlignment });
   }
+  // CONTENT COLOR
   function onChangeContentColor(newColor) {
     setAttributes({ contentColor: newColor });
   }
+  // CONTENT SIZE
   function onChangeContentSize(newSize) {
     if (newSize === undefined) {
       newSize = 16;
@@ -67,6 +69,7 @@ export default function Edit({ attributes, setAttributes }) {
     }
     setAttributes({ contentSize: newSize });
   }
+  // DATE
   function onChangeDate(newDate) {
     // Format to dd/mm/yyyy
     let formatDate = new Date(newDate);
@@ -77,29 +80,33 @@ export default function Edit({ attributes, setAttributes }) {
     newDate = formatDate;
     setAttributes({ date: newDate });
   }
-
+// 
   function today() {
     return new Date().toLocaleDateString();
   }
+  // IMAGE INSERT
   const onSelectImage = (newImage) => {
     setAttributes({ image: newImage.sizes.full.url });
   };
-
+// IMAGE REMOVE
   function onRemoveImage() {
     setAttributes({ image: null });
   }
+  // ASPECT RATIO
   const onAspectRatioChange = (newAspectRatio) => {
     setAttributes({ aspectRatio: newAspectRatio });
   };
+  // FLIP HORIZONTAL
   const onFlipHorizontalChange = (newFlipHorizontal) => {
     if (newFlipHorizontal === true) {
       newFlipHorizontal = "flip-horizontal";
     } else {
-      newFlipHorizontal = "flip-original";
+      newFlipHorizontal = "";
     }
     setAttributes({ flipHorizontal: newFlipHorizontal });
   };
 
+  // Return the edit UI
   return (
     <div {...useBlockProps()}>
       <InspectorControls>
@@ -176,7 +183,7 @@ export default function Edit({ attributes, setAttributes }) {
           <ToggleControl
             label="Flip image horizontally"
             onChange={onFlipHorizontalChange}
-            checked={flipHorizontal === "flip-horizontal" ? true : false}
+            checked={flipHorizontal === "flip-horizontal" ? true : ""}
           />
         </PanelBody>
       </InspectorControls>
