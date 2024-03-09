@@ -152,6 +152,8 @@ export default function Edit({ attributes, setAttributes }) {
             value={contentSize}
             withReset
             withSlider
+            min = {12}
+            max = {26}
           />
         </PanelBody>
         {/* Date Settings */}
