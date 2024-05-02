@@ -19,13 +19,30 @@ export default function save({ attributes }) {
       <div {...useBlockProps.save()}>
         <div className="zagaz-frontend">
           <div className="wrapper">
-            <div className="image-wrapper">
+            {
+              image && (
+                <div className="image-wrapper">
+                  <img
+                    src={image}
+                    alt={title}
+                    className={`the-image ${aspectRatio} ${flipHorizontal}`}
+                  />
+                </div>
+              )
+                
+            }
+
+
+            {/* <div className="image-wrapper">
               <img
                 src={image}
                 alt={title}
                 className={`the-image ${aspectRatio} ${flipHorizontal}`}
               />
-            </div>
+            </div> */}
+
+
+
 
             <div className="text-wrapper">
               {title && (

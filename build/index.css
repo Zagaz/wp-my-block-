@@ -1,1 +1,118 @@
-.wp-block-zaz-static-zagaz-static .zagaz-backend{background-color:#d1ecf1;padding:20px}.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-title .zagaz-title-input{background-color:#fff;border:1px solid #17a2b8;border-radius:5px;margin-bottom:20px;padding:20px}.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-date{background-color:#fff;border:1px solid #17a2b8;border-radius:5px;display:flex;flex-direction:column;margin-bottom:20px;padding:20px}.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-date .date-left,.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-date .date-right{background-color:#fff;border:1px solid #17a2b8;border-radius:5px;margin-bottom:20px;padding:20px;width:100%}.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-date .date-right{align-self:self-end;margin-left:20px}.wp-block-zaz-static-zagaz-static .image-wrapper .image-top,.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-richtext{background-color:#fff;border:1px solid #17a2b8;border-radius:5px;margin-bottom:20px;padding:20px}.wp-block-zaz-static-zagaz-static .image-wrapper .image-top .upload-button{margin-right:20px}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down{background-color:#fff;border:1px solid #17a2b8;border-radius:5px;height:200px;margin-bottom:20px;padding:20px}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display{display:flex;height:inherit;justify-content:center;width:auto}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display.flip-horizontal{transform:scaleX(-1);transition:transform .5s}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display.flip-original{transform:scaleX(1);transition:transform .5s}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image{align-self:center;height:190px;justify-self:center;-o-object-fit:cover;object-fit:cover;width:auto}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.landscape{aspect-ratio:1.7777777778}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.square{aspect-ratio:1}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.circle{aspect-ratio:1/1;border-radius:50%}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.portrait{aspect-ratio:.5625}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.letterbox{aspect-ratio:4/3}.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.original{aspect-ratio:auto}
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-zaz-static-zagaz-static .zagaz-backend {
+  padding: 20px;
+  background-color: #d1ecf1;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-title .zagaz-title-input {
+  background-color: #ffffff;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #17a2b8;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-date {
+  background-color: #ffffff;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-date .date-left {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-date .date-right {
+  align-self: self-end;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.wp-block-zaz-static-zagaz-static .zagaz-backend .zagaz-richtext {
+  background-color: #ffffff;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-top {
+  background-color: #ffffff;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-top .upload-button {
+  margin-right: 20px;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down {
+  height: 200px;
+  background-color: #ffffff;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display {
+  height: inherit;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display.flip-horizontal {
+  transform: scaleX(-1);
+  transition: transform 0.5s;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display.flip-original {
+  transform: scaleX(1);
+  transition: transform 0.5s;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image {
+  height: 190px;
+  width: auto;
+  align-self: center;
+  justify-self: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.landscape {
+  aspect-ratio: 1.7777777778;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.square {
+  aspect-ratio: 1;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.circle {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.portrait {
+  aspect-ratio: 0.5625;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.letterbox {
+  aspect-ratio: 4/3;
+}
+.wp-block-zaz-static-zagaz-static .image-wrapper .image-down .image-display .image.original {
+  aspect-ratio: auto;
+}
+
+/*# sourceMappingURL=index.css.map*/
