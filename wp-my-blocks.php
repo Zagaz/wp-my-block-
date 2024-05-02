@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Wp My Blocks
- * Description:       Example block scaffolded with Create Block tool.
+ * Description:       A plugin to create custom blocks: A Title, Date, Content and Image.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0
